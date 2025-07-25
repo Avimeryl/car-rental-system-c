@@ -1,7 +1,9 @@
-🚗 Car Rental System
+# 🚗 Car Rental System
+
 A console-based Car Rental Management System in C, designed to manage cars, bookings, schedules, and reports efficiently. It supports full CRUD operations, real-time availability checks, rental receipts, and monthly reports.
 
-✨ Features
+# ✨ Features
+
 ✅ Car Management
 
 Add new cars with details (brand, model, seat capacity, engine, transmission, year, color, rent/day, plate no., availability)
@@ -44,7 +46,7 @@ Ensures no data corruption during edits/deletions
 
 Validates inputs (e.g., prevents renting unavailable/manual cars for DA licenses)
 
-🏗️ Project Structure
+# 🏗️ Project Structure
 
 CarRentalSystem/
 ├── carfile.txt        # Stores car details
@@ -53,7 +55,8 @@ CarRentalSystem/
 ├── Temporarystorefile.txt  # Temporary file for car updates
 └── car_rental.c       # Main source code
 
-🖥️ Usage
+# 🖥️ Usage
+
 1. Main Menu
 
 ========== Car Rental System ==========
@@ -109,7 +112,7 @@ Total amount to be paid: RM360
 Balance to be paid: RM260.00
 ===============================
 
-📊 Example Reports
+# 📊 Example Reports
 
 ✅ Monthly Summary Report
 
@@ -133,14 +136,15 @@ Customer Name   Collection Date   Return Date
 John Doe        27/07/2025        30/07/2025
 Jane Smith      01/08/2025        04/08/2025
 
-⚙️ Tech Stack
+# ⚙️ Tech Stack
+
 Language: C
 
 File Storage: Binary files (.txt) for cars & customers
 
 OS-specific: Uses windows.h and unistd.h for timing
 
-🚀 How to Run
+# 🚀 How to Run
 
 1. Compile the code
 
@@ -152,7 +156,7 @@ gcc car_rental.c -o car_rental
 ./car_rental
 
 
-👨‍💻 Authors
+# 👨‍💻 Authors
 
 Ibnu Ameerul Bin Abdul Halim (78038)
 
@@ -167,7 +171,7 @@ Muhammad Norqhaiziq Bin Maharuf (80270)
 Created on 29/11/2021 – Last Modified 10/01/2022
 
 
-📌 Future Improvements
+# 📌 Future Improvements
 
 Replace text file storage with a database (SQLite/MySQL)
 
