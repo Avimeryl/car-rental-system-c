@@ -94,24 +94,6 @@ CarRentalSystem/
 
 - Monthly summary report (total revenue)
 
-🧾 Example Booking Receipt
-
-===== Car Booking Receipt =====
-
-Name of customer: John Doe
-Booking date(day): 25/07/2025
-Collection date(time): 27/07/2025
-Duration: 3 day(s)
-Licence Type: D
-Contact Number: 012-3456789
-MyCard ID: 123456789012
-Deposit: RM100.0
-Type of car: 2 - Toyota Vios
-Rent per day: RM120
-Total amount to be paid: RM360
-Balance to be paid: RM260.00
-===============================
-
 # 📊 Example Reports
 
 ✅ Monthly Summary Report
